@@ -15,7 +15,7 @@ const Connection = async () => {
     const DataBaseUri =
       "mongodb+srv://harsha:CbYm4AVUyFsXCZNm@cluster0.ipg7pm1.mongodb.net/ytsubs";
     const Connect = await mongoose.connect(DataBaseUri, {
-      UseNewUrlParser: true,
+      useNewUrlParser: true,
       useUnifiedTopology: true,
     });
     console.log("DataBase Connected Sucessfully".bgGreen.white);
