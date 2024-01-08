@@ -13,7 +13,8 @@ const Connection = async () => {
 
   try {
     const DataBaseUri =
-      "mongodb+srv://harsha:CbYm4AVUyFsXCZNm@cluster0.ipg7pm1.mongodb.net/ytsubs";
+      "mongodb+srv://harsha:CbYm4AVUyFsXCZNm@cluster0.ipg7pm1.mongodb.net/ytsubs" ||
+      process.env.MONGO_URI;
     const Connect = await mongoose.connect(DataBaseUri, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
