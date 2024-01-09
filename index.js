@@ -22,7 +22,7 @@ allData();
 const app = express();
 
 //to use static file we need to give permission to public folder
-app.use(express.static("./src"));
+app.use(express.static("./public"));
 
 //middlewares
 app.use(morgan("dev"));
@@ -33,7 +33,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 //API to render HTML file(frontend)
 app.get("/", async (req, res) => {
   try {
-    res.sendFile(__dirname + "./src/index.html"); //defining the route folder of the index .html and here wherever we deployed this this path will help to locate the index.html file
+    res.sendFile(__dirname + "./public/index.html"); //defining the route folder of the index .html and here wherever we deployed this this path will help to locate the index.html file
   } catch (error) {
     res.status(400).send(error.message);
   }
