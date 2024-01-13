@@ -12,7 +12,8 @@ const Connection = async () => {
   //i am creating a connection bewteeen databse using async await you can aslo use then and catch method
 
   try {
-    const DataBaseUri = "mongodb://localhost:27017";
+    const DataBaseUri =
+      "mongodb+srv://harsha:CbYm4AVUyFsXCZNm@cluster0.ipg7pm1.mongodb.net/";
     const Connect = await mongoose.connect(DataBaseUri, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
