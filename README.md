@@ -7,9 +7,9 @@ It mainly focuses on GET method of API.
 This is home page to handle all the API's
 ![HomePage](image.png)
 
-##✨ `Features` - User can fetch all the subscribers - User can get only the subscriber name and their subscribed channel - User can search subscriber detail by id
+## ✨ `Features` - User can fetch all the subscribers - User can get only the subscriber name and their subscribed channel - User can search subscriber detail by id
 
-##🔧 `About`
+## 🔧 `About`
 
 This project has 3 get routes each serving particular type of detail, the details are as follows:
 
@@ -24,7 +24,7 @@ This project has 3 get routes each serving particular type of detail, the detail
    If id provided is incorrect, it shows the message as "subscriber not found"
    <img src="subsByWrongID.png" title="getsubsbyWrongID" alt="wrongid"/>
 
-##🧱 `Project Structure`
+## 🧱 `Project Structure`
 
 1. [index.js] is used to connect and start server and is used to handle API request
 2. [src/createDatabase.js] for database creation on MongoDB.
