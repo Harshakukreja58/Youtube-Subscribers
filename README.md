@@ -43,11 +43,11 @@ This project has 3 get routes each serving particular type of detail, the detail
 
 ## 📝 `Links`
 
-**Link for video preview** :
+**Link for video preview** : https://youtu.be/LTGEqqA3fZ4
 
 **Deployment links** : https://victorious-ruby-chameleon.cyclic.app/
 
-**API Documentation** :
+**API Documentation** : https://documenter.getpostman.com/view/28998252/2s9YsFDZNx
 
 ## :computer: `How to Run on your local Machine`
 
