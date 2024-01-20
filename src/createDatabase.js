@@ -25,6 +25,7 @@ const Connection = async () => {
   }
 };
 
+//to add data to database
 const allData = async () => {
   try {
     await subscriberModel.deleteMany({}); //first it will deelte all the data
